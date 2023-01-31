@@ -2931,20 +2931,16 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _navbar = require("./components/Navbar");
+var _navbar = require("./src/components/Navbar");
 var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "text-5xl",
-        children: [
-            "Hiii",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
-                fileName: "App.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 7,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "App.js",
         lineNumber: 6,
         columnNumber: 5
@@ -2954,7 +2950,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 13,
+    lineNumber: 12,
     columnNumber: 13
 }, undefined));
 exports.default = App;
@@ -2966,7 +2962,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-dom/client":"lOjBx","./components/Navbar":"9QpvA"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-dom/client":"lOjBx","./src/components/Navbar":"4U1ks"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("874a368f6735fe");
 
@@ -27314,11 +27310,11 @@ module.exports = require("2475117e56496641");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"9QpvA":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$04f2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"4U1ks":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$aed9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$04f2.prelude(module);
+$parcel$ReactRefreshHelpers$aed9.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27326,333 +27322,70 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _logoJpg = require("../../assets/logo.jpg");
+var _logoJpgDefault = parcelHelpers.interopDefault(_logoJpg);
 const Navbar = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-            class: "bg-black border-gray-200 px-2 py-2.5 rounded",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                class: "container flex flex-wrap items-center justify-between mx-auto",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "bg-slate-700",
+                children: "hi"
+            }, void 0, false, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                className: "text-7xl",
+                children: "Hello sanya"
+            }, void 0, false, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "https://flowbite.com/",
-                        class: "flex items-center",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "https://flowbite.com/docs/images/logo.svg",
-                                class: "h-6 mr-3 sm:h-9",
-                                alt: "Flowbite Logo"
-                            }, void 0, false, {
-                                fileName: "components/Navbar.js",
-                                lineNumber: 10,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                class: "self-center text-xl font-semibold whitespace-nowrap dark:text-white",
-                                children: "Flowbite"
-                            }, void 0, false, {
-                                fileName: "components/Navbar.js",
-                                lineNumber: 11,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Navbar.js",
-                        lineNumber: 9,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        class: "flex items-center md:order-2",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                type: "button",
-                                class: "flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300",
-                                id: "user-menu-button",
-                                "aria-expanded": "false",
-                                "data-dropdown-toggle": "user-dropdown",
-                                "data-dropdown-placement": "bottom",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        class: "sr-only",
-                                        children: "Open user menu"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 15,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        class: "w-8 h-8 rounded-full",
-                                        src: "/docs/images/people/profile-picture-3.jpg",
-                                        alt: "user photo"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 16,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Navbar.js",
-                                lineNumber: 14,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                class: "z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600",
-                                id: "user-dropdown",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        class: "px-4 py-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                class: "block text-sm text-gray-900 dark:text-white",
-                                                children: "Bonnie Green"
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 20,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                class: "block text-sm font-medium text-gray-500 truncate dark:text-gray-400",
-                                                children: "name@flowbite.com"
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 21,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 19,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                        class: "py-2",
-                                        "aria-labelledby": "user-menu-button",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "#",
-                                                    class: "block px-4 py-2 text-sm text-gray-700",
-                                                    children: "Dashboard"
-                                                }, void 0, false, {
-                                                    fileName: "components/Navbar.js",
-                                                    lineNumber: 25,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 24,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "#",
-                                                    class: "block px-4 py-2 text-sm text-gray-700",
-                                                    children: "Settings"
-                                                }, void 0, false, {
-                                                    fileName: "components/Navbar.js",
-                                                    lineNumber: 28,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 27,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "#",
-                                                    class: "block px-4 py-2 text-sm text-gray-700",
-                                                    children: "Earnings"
-                                                }, void 0, false, {
-                                                    fileName: "components/Navbar.js",
-                                                    lineNumber: 31,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 30,
-                                                columnNumber: 17
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "#",
-                                                    class: "block px-4 py-2 text-sm text-gray-700",
-                                                    children: "Sign out"
-                                                }, void 0, false, {
-                                                    fileName: "components/Navbar.js",
-                                                    lineNumber: 34,
-                                                    columnNumber: 19
-                                                }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "components/Navbar.js",
-                                                lineNumber: 33,
-                                                columnNumber: 17
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 23,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Navbar.js",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                "data-collapse-toggle": "mobile-menu-2",
-                                type: "button",
-                                class: "inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600",
-                                "aria-controls": "mobile-menu-2",
-                                "aria-expanded": "false",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        class: "sr-only",
-                                        children: "Open main menu"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                        class: "w-6 h-6",
-                                        "aria-hidden": "true",
-                                        fill: "currentColor",
-                                        viewBox: "0 0 20 20",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                            "fill-rule": "evenodd",
-                                            d: "M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z",
-                                            "clip-rule": "evenodd"
-                                        }, void 0, false, {
-                                            fileName: "components/Navbar.js",
-                                            lineNumber: 40,
-                                            columnNumber: 130
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 40,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Navbar.js",
-                                lineNumber: 38,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Navbar.js",
-                        lineNumber: 13,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        class: "items-center justify-between hidden w-full md:flex md:w-auto md:order-1",
-                        id: "mobile-menu-2",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            class: "flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
-                                        class: "block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white",
-                                        "aria-current": "page",
-                                        children: "Home"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 46,
-                                        columnNumber: 17
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/Navbar.js",
-                                    lineNumber: 45,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
-                                        class: "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
-                                        children: "About"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 49,
-                                        columnNumber: 17
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/Navbar.js",
-                                    lineNumber: 48,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
-                                        class: "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
-                                        children: "Services"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 52,
-                                        columnNumber: 17
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/Navbar.js",
-                                    lineNumber: 51,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
-                                        class: "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
-                                        children: "Pricing"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 55,
-                                        columnNumber: 17
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/Navbar.js",
-                                    lineNumber: 54,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "#",
-                                        class: "block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
-                                        children: "Contact"
-                                    }, void 0, false, {
-                                        fileName: "components/Navbar.js",
-                                        lineNumber: 58,
-                                        columnNumber: 17
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "components/Navbar.js",
-                                    lineNumber: 57,
-                                    columnNumber: 15
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Navbar.js",
-                            lineNumber: 44,
-                            columnNumber: 13
-                        }, undefined)
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _logoJpgDefault.default),
+                        alt: "logo",
+                        className: "h-4 w-4"
                     }, void 0, false, {
-                        fileName: "components/Navbar.js",
-                        lineNumber: 43,
-                        columnNumber: 11
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 10,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.jsx",
+                                lineNumber: 12,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.jsx",
+                                lineNumber: 13,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 11,
+                        columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "components/Navbar.js",
-                lineNumber: 8,
-                columnNumber: 9
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 9,
+                columnNumber: 6
             }, undefined)
-        }, void 0, false, {
-            fileName: "components/Navbar.js",
-            lineNumber: 7,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "components/Navbar.js",
-        lineNumber: 4,
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Navbar.jsx",
+        lineNumber: 5,
         columnNumber: 5
     }, undefined);
 };
@@ -27661,11 +27394,48 @@ exports.default = Navbar;
 var _c;
 $RefreshReg$(_c, "Navbar");
 
-  $parcel$ReactRefreshHelpers$04f2.postlude(module);
+  $parcel$ReactRefreshHelpers$aed9.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","lyZ4E","2Ew96"], "2Ew96", "parcelRequirecaed")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../assets/logo.jpg":"k8rUv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"k8rUv":[function(require,module,exports) {
+module.exports = require("6c6053ed88fb1b2").getBundleURL("lly8x") + "logo.181fb563.jpg" + "?" + Date.now();
+
+},{"6c6053ed88fb1b2":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}]},["1xC6H","lyZ4E","2Ew96"], "2Ew96", "parcelRequirecaed")
 
 //# sourceMappingURL=index.7826abd7.js.map

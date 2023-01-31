@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Navbar from "./components/Navbar";
+import Navbar from "./src/components/Navbar";
 const App = () => {
   return (
-    <div className="text-5xl">
-      Hiii
+    <div>
       <Navbar />
     </div>
   )
