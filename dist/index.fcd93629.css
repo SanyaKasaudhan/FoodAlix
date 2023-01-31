@@ -1,0 +1,106 @@
+.shimContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 5%;
+  display: flex;
+}
+
+.shimmer-card {
+  width: 300px;
+  height: 250px;
+  border-color: #bfc0c8;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 7px #d0d1d699;
+}
+
+.shimmer-title {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.shimmer-tags {
+  width: 80%;
+  margin-top: 4px;
+}
+
+.shimmer-details {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.shimmer-img {
+  height: 55%;
+  width: 230px;
+}
+
+.stroke {
+  height: 15px;
+  background: #777;
+}
+
+.animate {
+  background: linear-gradient(to right, #e6e6e6 5%, #ccc 25%, #e6e6e6 35%) 0 0 / 1000px 100%;
+  animation: 3s infinite shimmer;
+}
+
+.restaurant-list {
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 5px 10px 5px #2a2a2a33;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card > h5 {
+  font-weight: lighter;
+}
+
+.card > span {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  display: flex;
+}
+
+.card > span > h4 {
+  margin-top: 10px;
+  padding: 0 2px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.card > span > h4:first-child {
+  background-color: var(--light-green);
+  color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px;
+  display: flex;
+}
+
+.card > span > h4:first-child .fa-star {
+  padding: 0 5px 3px 0;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=index.fcd93629.css.map */
