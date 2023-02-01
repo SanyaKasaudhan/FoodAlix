@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../../assets/logo.jpg'
 const Navbar = () => {
   return (
@@ -8,7 +9,9 @@ const Navbar = () => {
       <div className='flex'>
       <img src={logo} alt="logo" className='w-24 h-24' />
       <ul className='flex flex mt-8 ml-80 space-x-12 '>
-        <li className='text-center cursor-pointer hover:h-7 rounded-md hover:bg-orange-300'>Home</li>
+        <Link to="/">Home</Link>
+        <Link to="/about">About </Link>
+        
         <li className='cursor-pointer hover:h-7 rounded-md hover:bg-orange-300'>About Us</li>
         <li className='cursor-pointer hover:h-7 rounded-md hover:bg-orange-300'>Contact Us</li>
       </ul>

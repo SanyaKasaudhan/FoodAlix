@@ -22,6 +22,11 @@ const Restaurant = () => {
     <RestauratCardShimmer />
   ) : 
    (
+    <>
+    <div className="search-container">
+    <input className="search-food m-5  border" type="search" placeholder="search your restaurant" />
+    <button className="serach-btn bg-yellow-500 p-2 rounded-lg space-x-6 ">Search</button>
+    </div>
     <div className="restaurant-list">
       {restaurantList.map((restaurant) => {
         return (<>
@@ -31,7 +36,7 @@ const Restaurant = () => {
       })
     }
       </div>
-   
+   </>
   )
    } 
   </>)
