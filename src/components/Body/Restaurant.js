@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { FOOD_API, IMG_CDN_URL } from "../Header/utils/constants";
 import RestaurantCard from "./RestaurantCard";
 import RestauratCardShimmer from "./RestauratCardShimmer";
@@ -30,7 +31,9 @@ const Restaurant = () => {
     <div className="restaurant-list">
       {restaurantList.map((restaurant) => {
         return (<>
-          <RestaurantCard {...restaurant.data} key={restaurant.data.id}/>
+        <Link to={"/restaurant/"+ restaurant?.data?.id} key={restaurant?.data?.id}>
+          <RestaurantCard {...restaurant?.data} />
+          </Link>
           </>
         );
       })
